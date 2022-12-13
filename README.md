@@ -5,6 +5,9 @@ A project that involve building a full dashboard design using Grid for majority 
 
 - HTML
 - CSS
+## A screenshot image of the Admin Dashboard
+![admin-dashbpard](https://user-images.githubusercontent.com/85459676/207464715-3ceb7750-64a4-487d-a753-8dfcbc507726.png)
+
 
 ## Live Demo :arrow_forward:
 
