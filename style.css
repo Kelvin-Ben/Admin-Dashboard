@@ -1,5 +1,251 @@
 * {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #e5e7eb;
 
-  /* font-family: 'Asap', sans-serif; */
+}
+.icons {
+  width: 24px;
+  height: 24px;
+}
+#container {
+  width: 90%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  overflow-x: none;
+}
+/* style sidebar section */
+#sidebar {
+width: 16%;
+height: 120vh;
+padding: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #3b82f6;
+}
+.dashboard {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-self: center;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+#mid-dashboard {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;  
+}
+#mid-dashboard div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 15px;
+}
+.lower-dashboard {
+  width: 100%;
+  color: #fff;
+}
+.lower-dashboard div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 15px;
+}
+
+.sidebar-icon {
+  stroke: none;
+  margin: 0 auto;
+}
+
+/* style header section */
+.header {
+  position: absolute;
+  top: 0;
+  left: 250px;
+  width: 88%;
+  height: 20vh;
+  background-color: #fff;
+}
+.top-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form {
+  width: 60%;
+  display: flex;
+  gap: 10px;
+  padding: 5px 10px;
+}
+.search {
+  background-color: #e5e7eb;
+  border-radius: 10px;
+}
+.search {
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+}
+#details {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 20%;
+}
+.low-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.greet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 40px;
+  gap: 20px;
+  width: 70%;
+}
+#action {
+  width: 30%;
+}
+.btn {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 50px;
+  background-color: #3b82f6;
+}
+.action {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* styling the cards */
+.projects {
+  position: absolute;
+  width: 84%;
+  top: 160px;
+  left: 250px;
+  margin-top: 20px;
+}
+.projects h3 {
+  width: 100%;
+  margin: 0 0 auto 10px;
+  padding: 5px;
+}
+
+#project-container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin: 10px 0 10px 10px;
+}
+.all-project {
+  width: 90%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #fff;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #64748b;
+  border-left:8px solid #f08c00;
+}
+.all-project h4 {
+  color: #000;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.anouncements {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: #64748b;
+  width: 20%;
+  height: 40vh;
+  gap: 10px;
+  float: right;
+  top: 190px;
+  left: 77%;
+}
+.anouncements h3 {
+  width: 100%;
+  margin: 0  auto 10px;
+  color: #000;
+}
+#anouncement-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  gap: 10px;
+  background-color: #ffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.trending {
+  position: absolute;
+  width: 20%;
+  height: 20vh;
+  float: right;
+  top: 65%;
+  left: 77%;
+  color: #64748b;
+}
+
+#users {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  margin-top: 20px;
+  padding: 10px;
+  height: 282px;
+  border-radius: 5px;
+  gap: 18px;
+
+}
+.users {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 20px 20px 0 0;
+}
+.users div {
+  display: flex;
+  flex-direction: column;
+}
+h5, h4 {
+  color: #0f172a;
+}
+span {
+  color: #1e293b;
+  font-size: 15px;
+  line-height: 1.5;
+}
+em {
+  font-size: 14px;
 }
